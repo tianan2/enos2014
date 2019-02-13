@@ -1,0 +1,20 @@
+---
+title: "Untitled"
+author: "Jaehwan Lim"
+date: "February 13, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+
+pnas <- read_csv("pnas_data.csv")
+confederate_face <- read_csv("confederate_face_data.csv")
+hispanic_face <- read_csv("hispanic_face_data.csv")
+
+
+```
+
+
